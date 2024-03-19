@@ -1,0 +1,15 @@
+.css-box{
+ 
+    width: 500px;
+    border:10px solid rebeccapurple;
+    padding: 60px;
+    margin: 90px;
+}
+
+.css-box2{
+    box-sizing: border-box;
+    width: 500px;
+    border:10px solid rebeccapurple;
+    padding: 60px;
+    margin: 90px;
+}

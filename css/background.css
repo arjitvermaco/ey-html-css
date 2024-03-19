@@ -1,0 +1,26 @@
+.css-box{
+    width: 500px;
+    margin: 50px auto;
+    border: 2px solid red;
+    
+}
+
+.bg1{
+    background-color: teal;
+}
+
+.bg2{
+    background-image: url(../images/bg-image.png);
+    height: 350px;
+    background-position: left center;
+    background-size: cover;
+    background-color: brown;
+}
+
+.bg3{
+    background: url(../images/bg-image.png) top center brown;
+}
+
+.bg4{
+    background: linear-gradient(to top,red,blue,green);
+}

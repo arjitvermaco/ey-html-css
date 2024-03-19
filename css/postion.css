@@ -1,0 +1,37 @@
+.box{
+    width: 400px;
+    background-color: aqua;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background-color: aquamarine;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+
+.absolute{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: brown;
+}
+
+.sticky{
+    position: sticky;
+    background-color: blue;
+    top: 50px;
+}

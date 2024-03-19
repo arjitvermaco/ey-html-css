@@ -1,0 +1,16 @@
+.pad-all{
+    border: 2px solid goldenrod;
+    /* padding: 50px; */
+    /* padding-top:40px;
+    padding-left: 90px;
+    padding-bottom: 40px; */
+
+    padding: 40px 90px 60px 30px;
+}
+
+.box-size{
+    width: 500px;
+    border: 2px solid red;
+    padding: 50px;
+    box-sizing: border-box;
+}

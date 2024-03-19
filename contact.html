@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Contact Arjit</h2>
+    <hr />
+
+    <div style="background-color: red;">
+      <a href="index.html">Go To Home Page</a><br />
+      <a href="tel:+919898989898">Call Me</a><br />
+      <a href="sms:+919898989898">Send SMS</a><br />
+      <a href="resume.pdf" download="">Download My Resume</a><br />
+      <a href="mailto:arjitverma.go@gmail.com">Email</a><br />
+    </div>
+
+
+    <code>I love to code</code>
+
+    <address>343,Lotus Apartment Lucknow, India</address>
+    <br />
+    <form action="" method="">
+      <label for="fullname">Enter Your Full Name</label>
+      <input type="text" name="fullname" placeholder="Arjit Verma" /> <br />
+      <br />
+      <label for="password">Password</label>
+      <input type="password" name="password" />
+      <br />
+      <br />
+      <label for="email">Enter your email</label>
+      <input type="email" name="email" />
+      <br />
+      <br />
+      <input type="radio" name="contactreason" value="Project" />
+      <label for="contactreason">Project</label>
+
+      <input type="radio" name="contactreason" value="Training" />
+      <label for="contactreason">Training</label>
+
+      <input type="radio" name="contactreason" value="Webinar" />
+      <label for="contactreason">Webinar</label>
+
+      <h3>What do you like?</h3>
+      <input type="radio" name="like" value="Ice Cream" />
+      <label for="like">Ice Cream</label>
+
+      <input type="radio" name="like" value="Pizza" />
+      <label for="like">Pizza</label>
+
+      <input type="radio" name="like" value="Biryani" />
+      <label for="like">Biryani</label>
+      <br />
+      <br />
+
+      <input type="checkbox" name="tnc" />
+      <label for="tnc">Agree to terms and conditions</label>
+
+      <br />
+      <br />
+
+      <label>What's your fav color?</label>
+      <input type="color" name="color" />
+
+      <br />
+      <br />
+
+      <label for="date">What is the date?</label>
+      <!-- yyyy-mm-dd -->
+      <input
+        type="date"
+        name="date"
+        value="2024-12-14"
+        min="2024-01-01"
+        max="2024-12-31"
+      />
+
+      <br />
+      <br />
+      <label for="meeting">When do you want to schedule the meeting?</label>
+      <input type="datettime-local" name="meeting" />
+      <br />
+      <br />
+
+      <label for="call">What it the best time to call you?</label>
+      <input type="time" name="call" min="09:00" max="18:00" />
+      <br />
+      <br />
+      <input
+        type="range"
+        value="10"
+        name="volume"
+        min="0"
+        max="100"
+        step="10"
+      />
+      <label>Volume</label>
+      <br />
+      <br />
+      <label for="story">What's your story?</label>
+      <textarea name="story" rows="10" cols="50"></textarea>
+      <br />
+      <br />
+      <label for="car">Choose A car</label>
+      <select name="car">
+        <option value="Audi Car">Audi</option>
+        <option value="BMW car">BMW</option>
+        <option value="Maruti car">Maruti</option>
+        <option value="Tat car">Tata</option>
+      </select>
+      <br />
+      <br />
+      <label name="browser">Choose your fav browser?</label>
+      <input list="browsers" name="browser" />
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+
+      <br />
+      <br />
+      <input type="file">
+      <br />
+      <br />
+      <input type="submit" value="Submit Form" />
+    </form>
+  </body>
+</html>

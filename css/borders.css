@@ -1,0 +1,29 @@
+.border-basic{
+    border-style:dotted;
+    /* border-width: 8px; */
+    border-width: medium;
+    border-color: blueviolet;
+}
+
+.border-short{
+    /* Shorthand for border  */
+    border: 2px solid red;
+}
+
+.border-rounded{
+    border: 2px solid darkblue;
+    border-radius: 5px;
+
+}
+
+.border-top{
+    border-top: 5px solid yellow;
+}
+
+
+.border-right{
+    border-right: 3px solid green;
+}
+.border-bottom{
+    border-bottom: 5px solid cyan;
+}
