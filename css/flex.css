@@ -1,0 +1,43 @@
+.box1 {
+  background-color: orange;
+
+}
+.box2 {
+  background-color: blueviolet;
+  height: 400px;
+  order: 1;
+}
+.box3 {
+  background-color: brown;
+  order: 2;
+}
+.box4 {
+  background-color: red;
+}
+.box5 {
+  background-color: green;
+}
+.box6 {
+  background-color: indianred;
+}
+.box7 {
+  background-color: indigo;
+  order: -2;
+}
+.box8 {
+  background-color: teal;
+  order:-1;
+}
+
+.flexbox{
+    display: flex;
+    border: 1px solid red;
+    justify-content:center;
+    /* flex-start | flex-end | center 
+    space-between | space-around | space-evenly */
+    align-items: center;
+    /* stretch  | flex-start | flex-end
+    Center*/
+    gap: 50px;
+
+}
