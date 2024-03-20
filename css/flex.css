@@ -1,18 +1,21 @@
 .box1 {
   background-color: orange;
-
+  flex-grow: 1;
+  text-align: right;
 }
 .box2 {
   background-color: blueviolet;
-  height: 400px;
-  order: 1;
+  flex-grow: 2;
+
 }
 .box3 {
   background-color: brown;
-  order: 2;
+  flex-grow: 3;
+  height: 200px;
 }
 .box4 {
   background-color: red;
+
 }
 .box5 {
   background-color: green;
@@ -22,22 +25,23 @@
 }
 .box7 {
   background-color: indigo;
-  order: -2;
+  align-self: center;
 }
 .box8 {
   background-color: teal;
-  order:-1;
+  align-self: flex-end;
 }
 
-.flexbox{
-    display: flex;
-    border: 1px solid red;
-    justify-content:center;
-    /* flex-start | flex-end | center 
+.flexbox {
+  display: flex;
+  border: 1px solid red;
+  justify-content: center;
+  /* flex-start | flex-end | center 
     space-between | space-around | space-evenly */
-    align-items: center;
-    /* stretch  | flex-start | flex-end
+  align-items: flex-start;
+  /* stretch  | flex-start | flex-end
     Center*/
-    gap: 50px;
-
+  /* gap: 50px; */
+  /* gap: 20px; */
+ gap: 20px;
 }

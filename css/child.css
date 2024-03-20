@@ -1,0 +1,21 @@
+.box{
+    border: 1px solid red;
+}
+
+p:nth-child(1){
+    color: blue;
+    background: yellow;
+}
+
+
+p:nth-child(4){
+   padding: 30px;
+}
+
+p:nth-child(odd){
+    font-size: 22px;
+}
+
+p:nth-child(even){
+    background-color: blueviolet;
+}
