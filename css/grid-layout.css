@@ -1,0 +1,44 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+.grid-container1{
+    width: 500px; 
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.grid-box{
+    background-color: #f7f9fc;
+    color: #9151f7;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+
+.grid-box2{
+    background-color: #f7f9fc;
+    color: #9151f7;
+    font-weight: 300;
+    text-align: center;
+    padding: 25px;
+    font-weight: 400;
+    
+}
+
+h2{
+    font-weight: 400;
+}
+
+.grid-container2{
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
