@@ -14,6 +14,15 @@
     margin: 100px auto;
 }
 
+.nav{
+    display: flex;
+    gap: 30px;
+}
+
+.icon{
+    display: none;
+}
+
 /* Mobile Devices  */
 
 @media only screen and (max-width: 768px) {
@@ -27,6 +36,15 @@
     background-color: red;
     height: 80px;
   }
+
+  .nav{
+    display: none;
+   
+}
+
+.icon{
+    display: block;
+}
 }
 /* Styles for screens between 769px and 1024px wide (typical tablets) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -40,6 +58,15 @@
     background-color: green;
     height: 120px;
   }
+
+  .nav{
+    display: none;
+   
+}
+
+.icon{
+    display: block;
+}
 }
 
 /* Styles for screens wider than 1024px (typical desktops and laptops) */
